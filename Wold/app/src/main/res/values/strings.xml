@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wold</string>
+
+    <string name="Button1">信息</string>
+    <string name="Button2">廖春蕾</string>
+    <string name="Button3">41812516</string>
+
+    <string name="mountain1">青城山</string>
+    <string name="mountain2">恶魔山</string>
+</resources>
