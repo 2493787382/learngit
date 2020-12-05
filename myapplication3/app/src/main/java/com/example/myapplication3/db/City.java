@@ -6,7 +6,8 @@ public class City extends DataSupport {
     private int id;   //每一个实体类都有一个id
     private String cityName;  //记录市名称
     private int cityCode;   //几率市的代码
-    private int provinceCode;  //记录该市的上级省级代码
+    /* provinceCode;  //记录该市的上级省级代码*/
+    private int provinceId;
 
     public int getId() {
         return id;
@@ -32,11 +33,11 @@ public class City extends DataSupport {
         this.cityCode = cityCode;
     }
 
-    public int getProvinceCode() {
-        return provinceCode;
+    public int getProvinceId() {
+        return provinceId;
     }
 
-    public void setProvinceCode(int provinceCode) {
-        this.provinceCode = provinceCode;
+    public void setProvinceId(int provinceId) {
+        this.provinceId = provinceId;
     }
 }
