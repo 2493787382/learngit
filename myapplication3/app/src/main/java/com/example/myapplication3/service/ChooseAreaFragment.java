@@ -19,6 +19,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 
+import com.example.myapplication3.MainActivity;
 import com.example.myapplication3.R;
 import com.example.myapplication3.db.City;
 import com.example.myapplication3.db.County;
@@ -97,7 +98,7 @@ public class ChooseAreaFragment extends Fragment {
                     queryCounties();
                 }
 
-               /* *//*以下实现地区天气界面*//*
+               /* 以下实现地区天气界面*/
                 else if (currentLevel == LEVEL_COUNTY){
                     String weatherId = countyList.get(position).getWeatherId();
                     if (getActivity() instanceof MainActivity){
@@ -112,7 +113,7 @@ public class ChooseAreaFragment extends Fragment {
                         activity.swipeRefresh.setRefreshing(true);
                         activity.requestWeather(weatherId);
                     }
-                }*/
+                }
             }
         });
 
